@@ -90,9 +90,44 @@ p {
   height: 30px;
   font-weight: bold;
   border-radius: 4px;
+  transition: .5s ease;
+}
+
+.card-2 button:hover {
+  -webkit-box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.44);
+  box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.44);
+  transform: translateY(-4px);
 }
 
 .card-3 {
   background: #48BFBB;
-  color: #fff;
+  color: hsl(204, 43%, 93%);
+}
+
+@media (min-width:770px) {
+  .card {
+    padding: 40px;
+  }
+
+  .cards {
+    max-width: 634px;
+    margin: auto;
+  }
+
+  .connector {
+    flex-direction: row;
+  }
+
+  .card-2 {
+    width: 50%;
+  }
+
+  .card-2 button {
+    height: 48px;
+  }
+
+  .card-3 {
+    width: 50%;
+  }
 }
