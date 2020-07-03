@@ -43,6 +43,7 @@ p {
 .card-1 {
   background: #fff;
   width: 100%;
+  border-radius: 4px 4px 0 0;
 }
 
 .card-1 h2 {
@@ -103,6 +104,7 @@ p {
 .card-3 {
   background: #48BFBB;
   color: hsl(204, 43%, 93%);
+  border-radius: 0 0 4px 4px;
 }
 
 @media (min-width:770px) {
@@ -121,6 +123,7 @@ p {
 
   .card-2 {
     width: 50%;
+    border-radius: 0 0 0 4px;
   }
 
   .card-2 button {
@@ -129,5 +132,6 @@ p {
 
   .card-3 {
     width: 50%;
+    border-radius: 0 0 4px 0;
   }
 }
