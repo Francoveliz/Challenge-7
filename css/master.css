@@ -48,6 +48,7 @@ p {
 
 .card-1 h2 {
   color: hsl(179, 62%, 43%);
+  font-size: 1.6rem;
 }
 
 .card-1 p:nth-child(2) {
